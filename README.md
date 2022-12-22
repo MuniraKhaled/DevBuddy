@@ -6,14 +6,13 @@ The DevBuddy is a website is a learning platform for web developers to learn web
 ### The Site Map
 <img width="500" hight="500" alt="the sit map for the DevBuddy website" src="https://user-images.githubusercontent.com/80950031/209173070-f74e7809-ff73-48e9-b216-081e69ef95d2.png">
 
-
+### T
 
 ## Why?
-The most important question to answer. this project was meant for my object-oriented programming class.
-The main objective is to apply all OOP concepts which are: encapsulation, inheritance, polymorphism, interface, exception handling and Collections. In which we applied thoroughly.
+This project is meant for our Internet Applications class. The main objective is to To build a website FRONT-ENDED with CSS, HTML, and JavaScript.
 
 ## When? 
-30/3/2021 until 16/4/2021
+13/9/2022 until 2/11/2022
 
 ## Who?
 **Authors**
