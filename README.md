@@ -22,7 +22,7 @@ This project is meant for our Internet Applications class. The main objective is
 * [Shahad Abukozzanah](https://www.linkedin.com/in/shahad-mohammed-2817b0217)
 * [Areej Almisfer]()
 * [Najlaa Alnabati]()
-* [Reem Alotmi]()
+* @ReemAlotmi
 
 # What I learned?
 * How to mark up on structure of basic webpage using HTML.
