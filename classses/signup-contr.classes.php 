@@ -1,0 +1,29 @@
+<?php
+class SignupContr {
+
+private $username;
+private $password;
+private $password2;
+private $email;
+
+public function __construct($username, $password, $password2, $email) {
+$this->$username = $username;
+$this->$password = $password;
+$this->$password2 = $password2;
+$this->$email = $email;
+
+}
+
+private function emptyInput() {
+    $result;
+    if(empty($this->$username) || empty($this->$password) || empty($this->$password2) || empty($this->$email)) {
+    $result = false;
+    }
+    else {
+    $result = true;
+    }
+    
+    return $result;
+    
+    }
+}

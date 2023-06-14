@@ -11,7 +11,7 @@
 
   <body>
     <!-- ====== nav bar ====== -->
-    <nav id="navbar">
+           <nav id="navbar">
       <a href="Home.html"><img src="images/DevBuddy.png" class="logo" /></a>
 
       <!-- left list in nav bar-->
@@ -57,22 +57,48 @@
     <!-- ====== form-section ====== -->
 
     <div id="form-section">
-      <div id="Login-section">
-        <form class="login-form">
+      <div id="Login-section" style="height: 80%">
+        <form action="Includes/signUp.inc.php" method="post" class="login-form" >
           <p class="namelabel"><label for="Username"> Username: </label></p>
-          <input id="Username" type="text" placeholder="username" autofocus />
+          
+          
+          <input id="Username" name="username" type="text" placeholder="username" autofocus />
 
-          <p class="passlabel"><label for="password"> password: </label></p>
+          <p class="passlabel"><label for="mail"> Email: </label></p>
+
           <input
-            id="password"
-            type="password"
-            placeholder="password"
+            id="mail"
+            type="email"
+            name="email"
+            placeholder="youremail@example.com"
             required
           />
 
-          <button>Login</button>
+          <p class="passlabel"><label for="password"> Password: </label></p>
+
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="password"
+            required
+          />
+          <p class="passlabel">
+            <label for="password2"> Verify Password: </label>
+          </p>
+          <input
+            id="password2"
+            type="password"
+            name="password2"
+            placeholder="verify password"
+            required
+          />
+
+          <button type="submit" name="submit"  style="width: 40%; font-size: 0.8em" id="create">
+            Create Account
+          </button>
           <p class="message">
-            Not registered? <a href="CreateAccount.html">Create an account</a>
+            Have an account? <a href="LogIn.html">Log In</a>
           </p>
         </form>
       </div>
@@ -127,5 +153,6 @@
         /></a>
       </div>
     </footer>
+    <script src="passwordChecker.js"></script>
   </body>
 </html>

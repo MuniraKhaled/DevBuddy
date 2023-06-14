@@ -11,13 +11,13 @@ body{
   height: 100vh;
   overflow: hidden;
 }
-.quiz-container{
+.quiz-container{ 
   background-color: #fff;
   border-radius: 10px;
   width: 600px;
   overflow: hidden;
 }
-.quiz-header{
+    .quiz-header{
   padding: 2.5rem;
 }
 

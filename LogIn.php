@@ -12,7 +12,8 @@
   <body>
     <!-- ====== nav bar ====== -->
     <nav id="navbar">
-      <a href="Home.html"><img src="images/DevBuddy.png" class="logo" /></a>
+      <
+      a href="Home.html"><img src="images/DevBuddy.png" class="logo" /></a>
 
       <!-- left list in nav bar-->
       <ul class="list-design">
@@ -57,43 +58,22 @@
     <!-- ====== form-section ====== -->
 
     <div id="form-section">
-      <div id="Login-section" style="height: 80%">
-        <form class="login-form">
+      <div id="Login-section">
+        <form class="login-form" action="" method="post">
           <p class="namelabel"><label for="Username"> Username: </label></p>
           <input id="Username" type="text" placeholder="username" autofocus />
 
-          <p class="passlabel"><label for="mail"> Email: </label></p>
-
-          <input
-            id="mail"
-            type="email"
-            placeholder="youremail@example.com"
-            required
-          />
-
-          <p class="passlabel"><label for="password"> Password: </label></p>
-
+          <p class="passlabel"><label for="password"> password: </label></p>
           <input
             id="password"
             type="password"
             placeholder="password"
             required
           />
-          <p class="passlabel">
-            <label for="password2"> Verify Password: </label>
-          </p>
-          <input
-            id="password2"
-            type="password"
-            placeholder="verify password"
-            required
-          />
 
-          <button style="width: 40%; font-size: 0.8em" id="create">
-            Create Account
-          </button>
+          <button type="submit" name="submit" >Login</button>
           <p class="message">
-            Have an account? <a href="LogIn.html">Log In</a>
+            Not registered? <a href="CreateAccount.html">Create an account</a>
           </p>
         </form>
       </div>
@@ -148,6 +128,5 @@
         /></a>
       </div>
     </footer>
-    <script src="passwordChecker.js"></script>
   </body>
 </html>
