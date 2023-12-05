@@ -15,7 +15,7 @@ A visual representation of the site's structure:
 
 ### Live Demo
 Experience the interactive features and user interface of DevBuddy:
-https://user-images.githubusercontent.com/80950031/209181602-4afaed80-6290-43d7-9cfb-b197b9496b6e.mov
+
 
 ## Purpose
 This project was developed for an Internet Applications class, focusing on the creation of a front-end intensive website. The main goal was to build a platform that facilitates learning of web development skills in an interactive and user-friendly manner.
