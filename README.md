@@ -25,7 +25,7 @@ https://github.com/munirahd/DevBuddy/assets/80950031/30ee34f0-d68e-40f1-abee-31d
 This project was developed for an Internet Applications class, focusing on the creation of a front-end intensive website. The main goal was to build a platform that facilitates learning of web development skills in an interactive and user-friendly manner.
 
 ## Project Timeline
-**Duration:** September 13, 2022, to November 2, 2022
+**Duration:** Sep 2022 - Nov 2022
 
 ## Contributors
 **Team Members:**
