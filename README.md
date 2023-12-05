@@ -17,6 +17,10 @@ A visual representation of the site's structure:
 Experience the interactive features and user interface of DevBuddy:
 
 
+
+https://github.com/munirahd/DevBuddy/assets/80950031/30ee34f0-d68e-40f1-abee-31dec6b2c84f
+
+
 ## Purpose
 This project was developed for an Internet Applications class, focusing on the creation of a front-end intensive website. The main goal was to build a platform that facilitates learning of web development skills in an interactive and user-friendly manner.
 
